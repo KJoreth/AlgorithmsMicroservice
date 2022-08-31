@@ -1,8 +1,7 @@
-﻿namespace DataStructure.API.Data
+﻿namespace AlgorithmsMicroservice.Interfaces
 {
-    public class Structure : IStructure
+    public interface IStructureDTO
     {
-        public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
         public string BigONotationValue { get; set; }

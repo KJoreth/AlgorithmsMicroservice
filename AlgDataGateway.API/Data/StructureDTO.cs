@@ -1,8 +1,10 @@
-﻿namespace DataStructure.API.Data
+﻿using System.Text.Json.Serialization;
+
+namespace AlgDataGateway.API.Data
 {
-    public class Structure : IStructure
+    public class StructureDTO : IStructureDTO
     {
-        public int Id { get; set; }
+
         public string Name { get; set; }
         public string Description { get; set; }
         public string BigONotationValue { get; set; }
