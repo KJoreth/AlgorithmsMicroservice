@@ -1,6 +1,4 @@
-﻿using System.Text.Json.Serialization;
-
-namespace AlgDataGateway.API.Data
+﻿namespace Algorithms.API.Data
 {
     public class StructureDTO : IStructureDTO
     {

@@ -1,6 +1,6 @@
 ﻿namespace DataStructure.API.Data
 {
-    public class Structure : IStructure
+    public class Structure
     {
         public int Id { get; set; }
         public string Name { get; set; }

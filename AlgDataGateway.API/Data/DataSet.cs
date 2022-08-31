@@ -1,5 +1,4 @@
-﻿
-namespace Algorithms.API.Data
+﻿namespace Algorithms.API.Data
 {
     public class DataSet : IDataSet
     {
